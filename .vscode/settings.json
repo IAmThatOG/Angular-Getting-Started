@@ -1,4 +1,4 @@
 {
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "onFocusChange",
   "html.format.wrapAttributes": "force-aligned"
 }
