@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './product/product-list/product-list.component';
 import { from } from 'rxjs';
-import { ConvertToSpacesPipe } from './pipes/convert-to-spaces.pipe';
+import { ConvertToSpacesPipe } from './pipes/convert-to-spaces/convert-to-spaces.pipe';
 
 @NgModule({
   declarations: [
