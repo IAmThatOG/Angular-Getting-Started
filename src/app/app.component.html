@@ -1,7 +1,11 @@
 <!--The whole content below can be removed with the new code.-->
+<nav class="navbar navbar-expnded navbar-light bg-light">
+  <a href="" class="navber-brand">{{pageTitle}}</a>
+  <ul class="nav nav-pills">
+    <li><a [routerLink]="['/welcome']" routerLinkActive="router-link-active"  class="nav-link">Home</a></li>
+    <li><a [routerLink]="['/products']" routerLinkActive="router-link-active"  class="nav-link">Product List</a></li>
+  </ul>
+</nav>
 <div class="container">
-  <div class="row">
-    <h1>{{pageTitle}}</h1>
-  </div>
-  <pm-product-list></pm-product-list>
+  <router-outlet></router-outlet>
 </div>
