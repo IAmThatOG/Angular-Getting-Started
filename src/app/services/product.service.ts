@@ -1,14 +1,14 @@
-import { Injectable } from "@angular/core";
-import { IProduct } from "../models/product";
-import { HttpClient, HttpErrorResponse } from "@angular/common/http";
-import { Observable, throwError } from "rxjs";
-import { tap, catchError } from "rxjs/operators";
+import { Injectable } from '@angular/core';
+import { IProduct } from '../models/product';
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { Observable, throwError } from 'rxjs';
+import { tap, catchError } from 'rxjs/operators';
 
 @Injectable({
-  providedIn: "root"
+  providedIn: 'root'
 })
 export class ProductService {
-  private _productUrl = "api/products/products.json";
+  private _productUrl = 'api/products/products.json';
 
   constructor(private _httpClient: HttpClient) {}
 

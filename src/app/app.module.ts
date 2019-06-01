@@ -27,7 +27,7 @@ import { ProductModule } from './product/product.module';
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
     ]),
-    ProductModule,
+    ProductModule
   ],
   bootstrap: [AppComponent]
 })
